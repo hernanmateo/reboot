@@ -1,6 +1,6 @@
 {
   "name": "nodejs-system-reboot",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Reboot computer with nodejs (iOS/Linux)",
   "main": "index.js",
   "scripts": {
