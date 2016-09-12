@@ -1,6 +1,6 @@
 {
   "name": "nodejs-system-reboot",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Reboot computer with nodejs (iOS/Linux)",
   "main": "index.js",
   "scripts": {
@@ -17,5 +17,10 @@
     "nodejs"
   ],
   "author": "Hernan Mateo <hernanmateo9@gmail.com> (https://github.com/hernanmateo)",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "is-linux": "^1.0.1",
+    "is-osx": "^1.0.2",
+    "is-windows": "^0.2.0"
+  }
 }
