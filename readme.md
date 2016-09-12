@@ -1,6 +1,6 @@
 # reboot
 
-> Cross OS reboot.
+> iOS/Linux reboot.
 
 
 ## Install
@@ -13,9 +13,9 @@ $ npm install --save reboot
 ## Usage
 
 ```js
-var powerOff = require('reboot');
+var reboot = require('reboot');
 
-powerOff( function (err, stderr, stdout) {
+reboot( function (err, stderr, stdout) {
 	if(!err && !stderr) {
 		console.log(stdout);
 	}
