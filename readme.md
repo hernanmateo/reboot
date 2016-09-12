@@ -13,7 +13,7 @@ $ npm install --save reboot
 ## Usage
 
 ```js
-var reboot = require('reboot');
+var reboot = require('nodejs-system-reboot');
 
 reboot( function (err, stderr, stdout) {
 	if(!err && !stderr) {
